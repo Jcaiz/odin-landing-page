@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: 'Roboto';   
+}
+
+.header {
+    background: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    padding: 20px 5px;
+    /* flex-grow: 1; */
+}
+
+.head-title {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 40px;
+    margin-right: auto;
+}
+
+.head-links {
+    display: flex;
+    margin-left: auto;
+}
+
+.head-content {
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.head-description {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 15px;
+    font-size: 25px;
+    font-weight: 600px;
+}
+
+.hdesc-content {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    width: 250px;
+    /* font-weight: 600px; */
+}
+
+.chains_free {
+    height: 350px;
+    width: auto;
+}
+
+.content {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 20px;
+    font-size: 48px;
+    font-weight: #F9FAF8;
+    color: black;
+    text-align: center;
+}
+
+.first-body {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.second-body {
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.third-body {
+    display: flex;
+    justify-content: center;
+    /* justify-content: center; */
+}
+
+.footer {
+    background: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    padding: 15px;
+    /* flex-grow: 1; */
+}
+
+.item {
+    color: blue;
+    font-size: 24px;
+    font-weight: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: rebeccapurple;
+    color: white;
+    padding: 8px 24px;
+    cursor: pointer;
+    /* margin: 4px; */
+    margin-top: 15px;
+}
