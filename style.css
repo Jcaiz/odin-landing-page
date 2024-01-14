@@ -2,7 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
-    font-family: 'Roboto';   
+    font-family: 'Roboto';
+    height: 100vh; 
 }
 
 .header {
@@ -71,6 +72,7 @@ body {
     font-weight: #F9FAF8;
     color: black;
     text-align: center;
+    flex-shrink: 1;
 }
 
 .first-body {
@@ -99,8 +101,10 @@ body {
     color: white;
     display: flex;
     justify-content: center;
-    margin-top: auto;
+    /* margin-top: auto; */
     padding: 15px;
+    /* position: fixed; */
+    /* bottom: 0; */
     /* flex-grow: 1; */
 }
 
@@ -113,12 +117,17 @@ body {
 ul {
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 20px;
 }
 
 a {
     text-decoration: none;
     color: red;
+}
+
+img {
+    width: 100px;
+    height: 100px;
 }
 
 button {
